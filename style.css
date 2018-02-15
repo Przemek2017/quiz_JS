@@ -1,0 +1,64 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  text-align: center;
+  background-color: #00c471;
+  font-family: monospace;
+  padding: 5px 25px 25px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+.grid h1 {
+  text-align: center;
+  font-family: monospace;
+  border-radius: 20px;
+  padding: 1px;
+  background-color: #393939;
+  color: #fff;
+}
+
+.grid{
+  background-color: rgba(245, 245, 0, 0.35);
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  align-content: center;
+  padding: 10px 50px 50px 50px;
+  border-radius: 25px;
+  border: 2px solid #234451;
+  box-shadow: 10px 15px 50px;
+}
+
+.grid #question{
+  font-size: 25px;
+}
+
+.buttons {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+  background-color: #393939;
+  color: #fff;
+  width: 250px;
+  border: 1px solid #444;
+  border-radius: 20px;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+  background-color: #282828;
+  color: #ef3636;
+  cursor: pointer;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+  outline: 0;
+}
